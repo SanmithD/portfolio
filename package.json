@@ -45,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<h2 align=\"center\">\r   Portfolio Website - v2.0<br/>\r   <a href=\"https://soumyajit.vercel.app/\" target=\"_blank\">soumyajit.tech</a>\r </h2>\r <div align=\"center\">\r   <img alt=\"Demo\" src=\"./Images/readme-img1.png\" />\r </div>",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

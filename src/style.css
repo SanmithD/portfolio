@@ -431,6 +431,7 @@ button:focus {
   color: white !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+  /* color: rgb(175, 3, 175); */
 }
 .footer-icons {
   margin-top: 0.5em !important;
