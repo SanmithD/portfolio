@@ -1,7 +1,7 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import chatify from "../../Assets/Projects/chatify.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import chat from "../../Assets/Projects/demo.png";
 import bitsOfCode from "../../Assets/Projects/nexa.png";
 import leaf from "../../Assets/Projects/pet.jpg";
 import Particle from "../Particle";
@@ -53,7 +53,16 @@ function Projects() {
               isBlog={false}
               title="My Pet"
               description="Designed and developed a pet adoption platform allowing users to view, adopt pets, and donate. Implemented user feedback, contact message features, and secure cloud media handling. Deployed the app on Vercel and Render for seamless scalability and performance. "
-              demoLink="pet-adoption-front.vercel.app"
+              demoLink="https://pet-adoption-front.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chat}
+              isBlog={false}
+              title="Quick Chat"
+              description="A simple real-time chat application built with the MERN stack, styled using TailwindCSS, DaisyUI, and state-managed with Zustand. Featuring image sharing with Cloudinary and real-time communication via Socket.io."
+              demoLink="https://quick-chat-omega-eight.vercel.app"
             />
           </Col>
         </Row>
